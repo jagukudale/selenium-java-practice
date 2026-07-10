@@ -3,6 +3,7 @@ package practice.string;
 public class StringMethods {
     public static void main(String[] args) {
           String name = "JaiShriRam";
+                      //[0123456789]
         System.out.println("str.length() method returns length of string "+name.length());
         System.out.println("name.toLowerCase() convert String into lower case "+name.toLowerCase());
         System.out.println("name.toUpperCase() convert String into upper  case "+name.toUpperCase());
@@ -37,5 +38,8 @@ public class StringMethods {
         System.out.println("The str4.substring(4,7) method extracts a smaller piece of text ");
         System.out.println("from str4 starting at index position 4 and ending right before index position 7, returning a 3-character string.");
         System.out.println("str4.substring(4,7) " +str4.substring(4,7));
+        System.out.println("name string is "+name);
+        System.out.println("name.substring(4,7) " +name.substring(4,7));
+
     }
 }
