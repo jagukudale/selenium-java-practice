@@ -1,5 +1,7 @@
 package practice.string;
 
+import java.util.Arrays;
+
 public class StringMethods {
     public static void main(String[] args) {
           String name = "JaiShriRam";
@@ -40,6 +42,31 @@ public class StringMethods {
         System.out.println("str4.substring(4,7) " +str4.substring(4,7));
         System.out.println("name string is "+name);
         System.out.println("name.substring(4,7) " +name.substring(4,7));
-
+        System.out.println(name.substring(4));
+        System.out.println("name.isEmpty() checks : "+ name.isEmpty());
+        String name2="";
+        System.out.println("name2.isEmpty() checks : "+ name2.isEmpty());
+       String str="Ram Ram";
+       //[Ram=0] [Ram=1]
+       String []arr=str.split("");
+        System.out.println("arr.length is a property  "+arr.length);
+        System.out.println("Using for loop");
+        for(int i=0;i<arr.length;i++){
+            System.out.println("arr["+i+"] is "+arr[i]);
+        }
+        System.out.println("Using for each loop");
+        for(String st:arr)
+        {
+            System.out.println(st);
+        }
+       char[] ch= {'R','A','M','R','A','M'};
+        System.out.println("Char array using for each loop ");
+        for (char ch1 : ch)
+        {
+            System.out.println(ch1);
+        }
+        char[] ch2=str.toCharArray();
+        System.out.println("char[] ch2=str.toCharArray()  ");
+        System.out.println(Arrays.toString(ch2));
     }
 }
