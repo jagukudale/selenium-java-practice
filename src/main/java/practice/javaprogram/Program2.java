@@ -1,8 +1,8 @@
-package practice.javapractice;
+package practice.javaprogram;
 
 import java.util.Arrays;
 
-public class ReverseWordsInSentence {
+public class Program2 {
     public static void main(String[] args) {
 
         String str = "My name is ram";

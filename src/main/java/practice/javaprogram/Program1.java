@@ -1,6 +1,6 @@
-package practice.javapractice;
+package practice.javaprogram;
 
-public class ReverseString {
+public class Program1 {
     public static void main(String[] args) {
 
         String str = "Ram";
