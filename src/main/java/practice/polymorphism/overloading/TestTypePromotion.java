@@ -1,4 +1,4 @@
-package practice.polymorphism;
+package practice.polymorphism.overloading;
 //Type promotion method overloading works
 /*"Java first looks for an exact method match. If it doesn't find one, it automatically promotes the argument
 to the next compatible wider primitive type in the order: byte → short → int → long → float → double.

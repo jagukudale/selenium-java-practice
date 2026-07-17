@@ -1,4 +1,4 @@
-package practice.polymorphism;
+package practice.polymorphism.overloading;
 //Method overloading is defining multiple methods with the same name but different parameter lists
 // (number, type, or order of parameters). It is also known as compile-time polymorphism.
 

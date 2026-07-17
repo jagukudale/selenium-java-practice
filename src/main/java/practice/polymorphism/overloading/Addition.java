@@ -1,4 +1,4 @@
-package practice.polymorphism;
+package practice.polymorphism.overloading;
 
 public class Addition {
     public void addition(int a,int b)

@@ -1,4 +1,4 @@
-package practice.polymorphism;
+package practice.polymorphism.overloading;
 //Constructor overloading
 
 public class Student {
